@@ -1,0 +1,163 @@
+(footprint "Symbol_Barrel_Polarity"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Barrel connector polarity indicator")
+	(tags "barrel polarity")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9dda5ee3-92db-4802-ad6e-686505812111")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Logo_Open_Hardware_Small"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92f05fa1-b698-476f-8995-742939cc01f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9116ea5e-b45c-4ce1-936d-677a432c7ca8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Open Hardware logo, small"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "980fe97e-fe05-482e-9481-6be0aa90ccc1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c78a7b75-bfc1-4885-87c5-bbd837e04244")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "745eef5a-e8f5-4904-bf12-9b8117fd30e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a504b79a-8223-4c70-ba51-a6c0fb059b41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_line
+		(start -2 0.075)
+		(end -1.1 0.075)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7c3c930-1562-42a7-a6db-e8fac08d41d3")
+	)
+	(fp_line
+		(start 0 0.075)
+		(end 2 0.075)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47516c6a-80f0-451e-8d4a-af067d0328c4")
+	)
+	(fp_arc
+		(start 0.75 0.75)
+		(mid -1.007627 0.128033)
+		(end 0.675 -0.675)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6bf8790-6e5e-4503-aeb8-42bab0bc3812")
+	)
+	(fp_circle
+		(center -3 0.075)
+		(end -3 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5c0255d5-c212-402c-9f29-43366348c78a")
+	)
+	(fp_circle
+		(center 0 0.075)
+		(end 0 0.25)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "53d66c17-bb89-4bf5-b519-5f3210224fe1")
+	)
+	(fp_circle
+		(center 3 0.075)
+		(end 3 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c10e54a7-28a0-4453-a885-8fed2a2875b2")
+	)
+	(embedded_fonts no)
+)

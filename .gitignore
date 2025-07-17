@@ -1,0 +1,61 @@
+# KiCAD backup
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+_saved_*
+*-backups/
+~*.kicad_sch.lck
+~*.kicad_pcb.lck
+
+# Footprint info cache
+fp-info-cache
+
+# Autosave files
+_autosave-*
+
+# Python
+*.pyc
+
+# Eclipse files
+.settings/language.settings.xml
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.su
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build folders
+/Debug/*
+/Release/*
+/build/*
+
