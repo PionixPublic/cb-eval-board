@@ -35,7 +35,6 @@ For more details refer to the PDF datasheet.
 
 
 ## Features
-============
 
 * **Wide Input Voltage Range**:
   `VSUPPLY` input supports **9–30 V**
@@ -52,11 +51,10 @@ For more details refer to the PDF datasheet.
 
   * 3× relay drivers for **VSUPPLY** (with **feedback** inputs)
 
-* **High-Voltage Safety Monitoring**:
+* **Output Over Voltage Monitoring**:
 
-  * Input for **DC overvoltage shutdown**
+  * Input for **DC overvoltage monitoring** (supports up to 1200V)
   * Compliant with **IEC 61851-23:2023**, sections **6.3.1.106.2** and **6.3.1.106.3**
-  * Supports up to **1200 V**
 
 * **Communication Interfaces**:
 
